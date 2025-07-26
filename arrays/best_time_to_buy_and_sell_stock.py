@@ -1,8 +1,8 @@
-# Notes: 
-# float('inf') -> infinity(very big #) -> so that the first value replaces it
-# min (a,b) -> smaller of 2 values -> helps track smallest price
-# Use short names (i, j) for indexes,
-# Use clear names (price, num, char) for real data. 
+""" Notes: 
+-> float('inf') -> infinity(very big #) -> so that the first value replaces it
+-> min (a,b) -> smaller of 2 values -> helps track smallest price
+-> Use short names (i, j) for indexes,
+-> Use clear names (price, num, char) for real data. """
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
