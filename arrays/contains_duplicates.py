@@ -42,3 +42,10 @@ Space Complexity: O(n)
 
 - therefore, it takes O(n) extra space
 """
+#MORE EFFICIENT SOLUTION
+class Solution:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+        return len(nums) != len(set(nums))
+
+#Time: O(n) → building the set
+#Space: O(n) → set stores up to n elements
